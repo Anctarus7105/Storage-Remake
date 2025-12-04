@@ -23,7 +23,7 @@ local SelfModules = {
  
 -- Load a custom instance model from a URL or local file
 local customRoom = SelfModules.Functions.LoadCustomInstance("https://github.com/Anctarus7105/Storage-Remake/blob/main/CharredRoomV1.3.rbxm?raw=true")
-customRoom.Parent = game.Workspace.CurrentRooms[lastroom]
+CharredRoom.Parent = game.Workspace.CurrentRooms[lastroom]
 
 --
 --after
